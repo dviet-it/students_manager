@@ -31,7 +31,7 @@ class StudentManager:
         score = float(input("Nhập điểm: "))
         student = Student(student_id, name, age, score)
         self.students.append(student)
-        print("✅ Thêm sinh viên thành công!")
+        print("Thêm sinh viên thành công!")
 
     def show_students(self):
         if not self.students:
@@ -109,4 +109,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
